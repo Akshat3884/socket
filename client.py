@@ -13,7 +13,7 @@ s = socket.socket()
 port = 12345                
   
 # connect to the server on local computer  
-s.connect(('192.168.25.60', port))  
+s.connect(('localhost', port))  
 
 # Taking the username of the user
 # and sending it to the server
